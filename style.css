@@ -1,0 +1,32 @@
+body {
+    margin-top:70px;
+    /* background-image: linear-gradient(to right, #82c5ff 0%, #00f2fe 100%); */
+    background-color: #a4e4ec;
+    color: black;
+}
+
+#textInput {
+
+    padding-left: 10px;
+    margin: 0px;
+}
+
+#unitSelect {
+
+    float: right;
+}
+
+.form-control {
+    height: 100%;
+}
+
+.form {
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+.card {
+    background-color: #eeeeee;
+}
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="icon" href="icon.png"></icon>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c159863e43.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+                <h2 class="display-4 text-center mb-3"><i class="class fas fa-balance-scale-right  mr-3"></i>Weight Converter</h2>
+                <p class="text-center mb-3 mt-5">This app was created with vanilla JS and Bootstrap. It can convert values between grams, ounces and pounds. Enter an amount and select a unit to display the conversion results.</p>
+                
+                <div id="input">
+                <form>
+                        <div class="form form-row form-control form-control-lg mt-5 pt-3 pb-3">
+                            <div class="col-7">
+                                <input id="textInput" class="form-control" type="number" placeholder="Enter Amount...">
+                            </div>
+
+                            <div class="col">
+                                <select id="unitSelect" class="form-control" name="unit">
+                                    <option value="fromGrams">Grams</option>
+                                    <option value="fromOunces">Ounces</option>
+                                    <option value="fromPounds">Pounds</option>
+                                </select> 
+                            </div>
+                        </div>
+                </form>
+                </div>
+
+                <div id="output">
+                        <div id="output-1" class="mt-4">
+                            <div class="card mt-2">
+                                <div class="card-body output-one">
+                                    <h4>
+                                        <div id="output-1-header">
+                                        </div>
+                                    </h4>
+
+                                    <div id="output-1-text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="output-2">
+                            <div class="card mt-1 mb-3">
+                                <div class="card-body output-two">
+                                    <h4>
+                                        <div id="output-2-header">
+                                        </div>
+                                    </h4>
+
+                                    <div id="output-2-text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>    
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
